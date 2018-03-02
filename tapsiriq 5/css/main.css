@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    margin-left:50px;
+}
+.div1{
+    background-image: url("../gg.jpg");
+    background-size:cover;
+    width:35%;
+    height:650px;
+    float: left; 
+    border:2px solid black;
+}
+.div2{
+    width: 35%;
+    height: 650px;
+    background: black;
+    float: left;
+    text-align: center;
+   
+}
+.clearFix{
+    clear: both;
+}
+.p1{
+    font-size: 30px;
+    color:red;
+}
+.p2{
+    font-size: 30px;
+    color:white;
+    margin-top:4px;
+    border-bottom: 3px solid red;
+    display: inline-block;
+    border-bottom:  4px solid red;
+    padding-bottom:15px;
+}
+.ts{
+    margin-left:130px;
+    margin-top:450px;
+}
+.p3{
+    color:white;
+    margin-top: 14%;
+    font-size: 30px;
+}
+.div2 h1{
+    color:white;
+    text-align: center;
+    margin-top:70px;
+}
+.qara{
+    width:75%;
+   margin:auto;
+   margin-top:85px;
+   font-size: 25px;
+
+}
+.qara1,.qara2{
+    color:white;
+}
+.qara1{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.qara input{
+    width:80%;
+    border:3px solid red;;
+    height: 45px;
+    margin-top: 7px;
+    outline: red;
+    /* border-radius: 3%; */
+    padding-left: 6px;
+}
+button{
+    width:120px;
+    margin-top:30px;
+    border:1px solid red;
+    outline: none;
+    height: 45px;
+    background: red;
+    color:white;
+    border-radius: 2px;
+
+}
+i{
+    color:white;
+}
